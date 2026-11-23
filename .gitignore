@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- Proje: wifi-csi-radar ----
+# Ham CSI kayitlari buyuk olur, repoya atma (yedegi Drive'da tut)
+data/raw/
+data/eski_denemeler/
+# ESP-IDF derleme ciktilari ve yerel ayarlar
+firmware/**/build/
+firmware/**/managed_components/
+firmware/**/sdkconfig
+firmware/**/sdkconfig.old
+firmware/**/.clangd
+# Yedek dosyalar ve editor ayarlari
+*.bak
+*.bak2
+.vscode/
